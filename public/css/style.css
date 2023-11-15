@@ -1,0 +1,215 @@
+/* MENU */
+.menu-topo{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-topo div{
+    margin: 5px 40px;
+}
+
+#home-link{
+    margin: 0 50px 0 0;
+}
+
+.menu-topo div h1{
+    margin: 0;
+}
+.menu-topo div a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.menu-topo div a:hover{
+    transition: 1.8s;
+    color: rgb(73, 71, 71);
+}
+
+/* BODY - HOME PAGE */
+
+.div-body{
+    background-color: rgb(116, 120, 120);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+
+.titulo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.titulo-home h1{
+    width:auto;
+    margin: 20px 0 0 0;
+    color: rgb(40, 41, 41);
+}
+
+.div-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1em;
+    background-color: white;
+    width: 300px;
+    height: 380px;
+    margin: 25px 35px;
+    box-shadow: 10px 10px 1px rgba(50, 49, 49, 0.916);
+}
+
+.text-product{
+    margin: 15px 0;
+    width: 95%;
+}
+
+.text-product p{
+    margin: 5px 0;
+}
+
+.row-text-product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30px;
+}
+
+.titulo-row-text{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.image-products{
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    transition: 1.6s;
+    color:rgb(77, 5, 77);
+}
+/* PAGE CREATE PRODUCT */
+.create-product{
+    height: auto;
+    width: auto;
+    width: 600px;
+    height: 400px;
+    
+
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div-centralize-create{
+    width: 100%;
+    text-align: center;
+}
+
+.form-create-product{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.input-create-date{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-input-create{
+    width: 130px;
+    text-align: end;
+}
+
+.form-create-product label{
+    height: 10px;
+    margin: 10px;
+}
+.form-create-product input{
+    width: 400px;
+    padding: 12px;
+}
+.form-create-product textarea{
+    padding: 12px;
+    width: 400px;
+    resize: none;
+}
+.form-create-product input[type='submit']{
+    margin: 10px;
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(193, 193, 193);
+    color:white;
+    font-size: 16px;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+
+.form-create-product input[type='submit']:hover{
+    transition: 1.5s;
+    background-color: rgb(91, 89, 89);
+}
+
+/*  PAGE DE DETALHES  */
+
+.div-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    margin: 25px 35px;
+
+}
+
+.image-product{
+    width: 300px;
+    height: 300px;
+}
+
+.edit-product{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input-edit-product{
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+
+.input-edit-product:hover{
+    transition: 1.0s;
+    background-color: rgb(170, 166, 166);
+}

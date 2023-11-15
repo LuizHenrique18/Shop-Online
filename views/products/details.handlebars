@@ -1,0 +1,12 @@
+<div class="div-product">
+    <img src="{{produto.image}}" alt="Imagem" class="image-product">
+    <div class="text-product">
+        <div class="row-text-product"><p class="titulo-row-text">{{produto.name}}</p></div>
+        <div class="row-text-product"><p class="titulo-row-text">R${{produto.price}}</p></div>
+        <div class="row-text-product"><p class="titulo-row-text">{{produto.description}}</p></div>
+    </div> 
+    <a href="/edit{{produto._id}}" class="edit-product">Editar produto</a>
+    <form action="/remove{{produto._id}}" method="post">
+        <input type="submit"  value="Excluir Produto" class="input-edit-product">
+    </form>
+</div>

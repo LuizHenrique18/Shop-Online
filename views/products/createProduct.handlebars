@@ -1,0 +1,23 @@
+<div class="create-product">
+    <div class="div-centralize-create"><h2>Criar Produtos</h2></div>
+    <form action="/creatingProduct" method="POST" class="form-create-product">
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Nome</label></div>
+            <div><input type="text" name="name" placeholder="Digite o nome"></div>  
+        </div>
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Url da Imagem:</label></div>
+            <div><input type="text" name="image" placeholder="Digite a URL da imagem"></div>
+        </div>
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Valor</label></div>
+            <div><input type="number" name="price" placeholder="Digite o preço"></div>
+        </div>
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Descrição</label></div>
+            <div><textarea name="description" placeholder="Digite uma descrição para o produto" maxlength="20"></textarea></div>
+        </div>
+        
+        <input type="submit"  value="Criar Produto" class="div-centralize-create">
+    </form> 
+</div>

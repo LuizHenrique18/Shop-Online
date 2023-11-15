@@ -1,0 +1,24 @@
+<div class="create-product">
+    <div class="div-centralize-create"><h2>Editar Produtos</h2></div>
+    <form action="/editingProduct" method="POST" class="form-create-product">
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Nome</label></div>
+            <div><input type="text" name="name" placeholder="Digite o nome" value="{{product.name}}"></div>
+        </div>
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Url da Imagem:</label></div>
+            <div><input type="text" name="image" placeholder="Digite a URL da imagem" value="{{product.image}}"></div>
+        </div>
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Valor</label></div>
+            <div><input type="number" name="price" placeholder="Digite o preço" value="{{product.price}}"></div>
+        </div>
+        <div class="input-create-date">
+            <div class="titulo-input-create"><label>Descrição</label></div>
+            <div><textarea name="description" placeholder="Digite uma descrição para o produto" maxlength="20">{{product.description}}</textarea></div>
+        </div>
+            <input name="id" value="{{product._id}}" hidden>
+        
+        <input type="submit"  value="Editar Produto">
+    </form> 
+</div>

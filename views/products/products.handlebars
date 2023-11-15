@@ -1,0 +1,18 @@
+<div>
+    <div class="titulo-home">
+        <div><h1>PRODUTOS</h1></div>
+    </div>
+    <div class="div-main">
+       {{#each products}}
+            <div class="div-products">
+                <img class="image-products" src="{{this.image}}" alt="image">
+                <div class="text-product">
+                    <div class="row-text-product"><p class="titulo-row-text">{{this.name}}</p></div>
+                    <div class="row-text-product"><p class="titulo-row-text">R${{this.price}}</p></div>
+                    <div class="row-text-product"><p class="titulo-row-text">{{this.description}}</p></div>
+                </div>
+                <a href="/details{{this._id}}">Detalhes</a>
+            </div>
+        {{/each}}
+    </div>
+</div>
